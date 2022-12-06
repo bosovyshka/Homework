@@ -1,0 +1,24 @@
+﻿//Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
+//2, 3, 7 -> 7
+//44 5 78 -> 78
+//22 3 9 -> 22
+
+Console.WriteLine("Введите первое число ");
+string input1 = Console.ReadLine()!;
+int A = int.Parse(input1);
+Console.WriteLine("Введите второе число ");
+string input2 = Console.ReadLine()!;
+int B = int.Parse(input2);
+Console.WriteLine("Введите третье число ");
+string input3 = Console.ReadLine()!;
+int D = int.Parse(input3);
+int max = A;
+if (B > max)
+{  
+    Console.WriteLine("Максимальное число: " + B);
+}
+if (D > max)
+{
+    Console.WriteLine("Максимальное число: " + D);
+}
+
